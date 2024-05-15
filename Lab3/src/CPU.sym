@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="CPU">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2024-5-8T13:35:11</timestamp>
+    <pin polarity="Input" x="0" y="-480" name="ENTER_OP1" />
+    <pin polarity="Input" x="0" y="-368" name="ENTER_OP2" />
+    <pin polarity="Input" x="0" y="-256" name="CALCULATE" />
+    <pin polarity="Input" x="0" y="-144" name="RESET" />
+    <pin polarity="Input" x="0" y="-32" name="CLOCK" />
+    <pin polarity="Output" x="512" y="-480" name="RAM_WR" />
+    <pin polarity="Output" x="512" y="-416" name="ACC_WR" />
+    <pin polarity="Output" x="512" y="-352" name="ACC_RST" />
+    <pin polarity="Output" x="512" y="32" name="RAM_ADDR(1:0)" />
+    <pin polarity="Output" x="512" y="96" name="CONST(7:0)" />
+    <pin polarity="Output" x="512" y="352" name="IN_SEL(1:0)" />
+    <pin polarity="Output" x="512" y="224" name="OP(1:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="256" y="-520" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin ENTER_OP1" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-368" type="pin ENTER_OP2" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-256" type="pin CALCULATE" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-144" type="pin RESET" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin CLOCK" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-480" type="pin RAM_WR" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-416" type="pin ACC_WR" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="-352" type="pin ACC_RST" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="32" type="pin RAM_ADDR(1:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="96" type="pin CONST(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="352" type="pin IN_SEL(1:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="440" y="224" type="pin OP(1:0)" />
+        <rect width="64" x="448" y="340" height="24" />
+        <line x2="512" y1="352" y2="352" x1="448" />
+        <rect width="64" x="448" y="20" height="24" />
+        <line x2="512" y1="32" y2="32" x1="448" />
+        <rect width="64" x="448" y="84" height="24" />
+        <line x2="512" y1="96" y2="96" x1="448" />
+        <rect width="64" x="448" y="212" height="24" />
+        <line x2="512" y1="224" y2="224" x1="448" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <line x2="0" y1="-368" y2="-368" x1="64" />
+        <line x2="0" y1="-256" y2="-256" x1="64" />
+        <line x2="0" y1="-144" y2="-144" x1="64" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="512" y1="-480" y2="-480" x1="448" />
+        <line x2="512" y1="-416" y2="-416" x1="448" />
+        <line x2="512" y1="-352" y2="-352" x1="448" />
+        <rect width="384" x="64" y="-512" height="960" />
+    </graph>
+</symbol>
